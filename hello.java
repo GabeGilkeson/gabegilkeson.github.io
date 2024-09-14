@@ -1,6 +1,6 @@
 /*
 Written by Gabe Gilkeson
-For Mr. Gross's Software Developement class
+For Mr. Gross's Software Development class
 
 Description: This program inputs the names of my family memebers
 */
