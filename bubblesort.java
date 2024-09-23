@@ -1,3 +1,9 @@
+/*
+Written by Gabe Gilkeson
+For Mr. Gross's Software Development class
+
+Description: This program prints an unsorted array, sorts it, and then prints the sorted array.
+*/
 public class bubblesort {
 
     public static void bubbleSort(int[] array) {
