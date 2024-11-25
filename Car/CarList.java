@@ -12,31 +12,41 @@ import java.util.ArrayList;
 
 public class CarList {
     public static void main(String[] args) {
-        // Create an ArrayList to store Car objects
         ArrayList<Car> cars = new ArrayList<Car>();
 
-        // Create a few Car objects
         Car car1 = new Car("Toyota", "Corolla", 2015);
-        Car car2 = new Car("Honda", "Civic", 2018);
-        Car car3 = new Car("Ford", "Focus", 2020);
+        SportsCar sportsCar1 = new SportsCar("Ferrari", "488", 2020, 660, 211);
+        ElectricCar electricCar1 = new ElectricCar("Tesla", "Model 3", 2022, 75, 350);
 
-        // Add Car objects to the ArrayList
         cars.add(car1);
-        cars.add(car2);
-        cars.add(car3);
+        cars.add(sportsCar1);
+        cars.add(electricCar1);
 
-        // Display car details before model change
-        for (Car car : cars) {
-            car.carDetails();
-        }
+        System.out.println("Regular Car Details:");
+        car1.carDetails();
+        System.out.println();
 
-        // Change the model of one car
+        System.out.println("Sports Car Details:");
+        sportsCar1.carDetails();
+        System.out.println();
+
+        System.out.println("Electric Car Details:");
+        electricCar1.carDetails();
+        System.out.println();
+
         car1.changeModel("Camry");
 
-        // Display car details after model change
-        System.out.println("\nAfter Changing Model:");
-        for (Car car : cars) {
-            car.carDetails();
-        }
+        System.out.println("After Changing Model:");
+        System.out.println("Regular Car Details:");
+        car1.carDetails();
+        System.out.println();
+
+        System.out.println("Sports Car Details:");
+        sportsCar1.carDetails();
+        System.out.println();
+
+        System.out.println("Electric Car Details:");
+        electricCar1.carDetails();
+        
     }
-}
+}    
