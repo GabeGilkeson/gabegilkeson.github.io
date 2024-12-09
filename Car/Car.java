@@ -10,7 +10,7 @@ package Car;
 
 import java.util.ArrayList;
 
-public class Car {
+public class Car implements Comparable<Car> {
     String make;
     String model;
     int year;
@@ -33,6 +33,10 @@ public class Car {
         System.out.println("Car Make: " + make);
         System.out.println("Car Model: " + model);
         System.out.println("Year of Manufacture: " + year);
+    }
+
+    public int compareTo(Car other) {
+        return Integer.compare(this.year, other.year);
     }
 
     public String toString() {
