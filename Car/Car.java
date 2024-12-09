@@ -3,7 +3,8 @@ Written by Gabe Gilkeson
 For Mr. Gross's Software Development class
 
 Description: This program creates a Car class that keeps track of a car's make, model, 
-manufacture year, and allows the car to change its model while keeping track of all previous models.
+year, and allows the changing of its model while saving the history of all previous models. 
+It also implements the Comparable interface to sort cars by their year of manufacture.
 */
 
 package Car;

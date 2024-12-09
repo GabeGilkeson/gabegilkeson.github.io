@@ -2,8 +2,9 @@
 Written by Gabe Gilkeson
 For Mr. Gross's Software Development class
 
-Description: This program manages a list of Car objects, creates a few instances of cars,
-and changes their model while displaying their details.
+Description: This program manages a list of Car objects, creates a few different cars, 
+and displays their details before and after sorting them by year. The cars are sorted 
+by their year using the Comparable interface and the Collections.sort() method.
 */
 
 package Car;
