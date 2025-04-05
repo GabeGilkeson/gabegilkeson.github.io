@@ -80,7 +80,6 @@ public class userdata {
                     } 
                     // Skip if age is messed up
                     catch (NumberFormatException ignored) {
-
                     }
                 }
 
