@@ -1,5 +1,5 @@
 /* 
-Written by Gabe Gilkeson
+Modified by Gabe Gilkeson
 For Mr. Gross's Software Development class
 Borrowed from Mr. Gross's GitHub. https://github.com/kimgrossteacher/linkedlist
 
