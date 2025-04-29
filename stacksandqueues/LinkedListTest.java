@@ -1,5 +1,5 @@
 /* 
-Written by Gabe Gilkeson
+Modified by Gabe Gilkeson
 For Mr. Gross's Software Development class
 
 Description: This program creates a linked list of student objects. 
