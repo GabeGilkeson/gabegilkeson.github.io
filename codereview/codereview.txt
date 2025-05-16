@@ -1,0 +1,15 @@
+Code Review for Titus Taylor’s Calculator.java
+Reviewed by: Gabriel Gilkeson
+
+Things I liked:
+Line 14 – Using .trim() is a good way to clean up the user input.
+Line 86 – I liked that you used error messages to explain exactly what went wrong.
+
+Suggestion:
+Line 86: You used double for numbers even though decimals aren’t allowed.
+Maybe using long instead could would avoid unnesesary checks for decimal values.
+
+Reflection:
+Reviewing this code helped me understand how calculators can use stacks to follow order of operations.
+It was a little confusing at first, but the way the code separates numbers and operators made it easier to follow.
+I also learned how useful comments can be.
